@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 0ec4799578af136409d8820c5ea8ae8c
+timeCreated: 1467746311
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Human_Hunter:COG
+    100004: Human_Hunter:GlobalSRT
+    100006: Human_Hunter:Head
+    100008: Human_Hunter:HeadRoot
+    100010: Human_Hunter:Human_Hunter
+    100012: Human_Hunter:Human_Hunter_Human_Hunter_H_H_body
+    100014: Human_Hunter:Human_Hunter_Human_Hunter_H_H_face
+    100016: Human_Hunter:LArmEff
+    100018: Human_Hunter:LArmRoot
+    100020: Human_Hunter:LBicept
+    100022: Human_Hunter:LFoot
+    100024: Human_Hunter:LFootEff
+    100026: Human_Hunter:LForearm
+    100028: Human_Hunter:LHand
+    100030: Human_Hunter:LHandEff
+    100032: Human_Hunter:LHandRoot
+    100034: Human_Hunter:LLegRoot
+    100036: Human_Hunter:LRootFoot
+    100038: Human_Hunter:LRootShoulder
+    100040: Human_Hunter:LShin
+    100042: Human_Hunter:LShoulder
+    100044: Human_Hunter:LShoulderEff
+    100046: Human_Hunter:LThigh
+    100048: Human_Hunter:LToe
+    100050: Human_Hunter:LToeEff
+    100052: Human_Hunter:Neck
+    100054: Human_Hunter:NeckEff
+    100056: Human_Hunter:RArmEff
+    100058: Human_Hunter:RArmRoot
+    100060: Human_Hunter:RBicept
+    100062: Human_Hunter:RFoot
+    100064: Human_Hunter:RFootEff
+    100066: Human_Hunter:RForearm
+    100068: Human_Hunter:RHand
+    100070: Human_Hunter:RHandEff
+    100072: Human_Hunter:RHandRoot
+    100074: Human_Hunter:RLegRoot
+    100076: Human_Hunter:RRootFoot
+    100078: Human_Hunter:RRootShoulder
+    100080: Human_Hunter:RShin
+    100082: Human_Hunter:RShoulder
+    100084: Human_Hunter:RShoulderEff
+    100086: Human_Hunter:RThigh
+    100088: Human_Hunter:RToe
+    100090: Human_Hunter:RToeEff
+    100092: Human_Hunter:Skeleton
+    100094: Human_Hunter:Spine1
+    100096: Human_Hunter:Spine2
+    100098: Human_Hunter:Spine3
+    100100: Human_Hunter:SpineEff
+    100102: Human_Hunter:SpineRoot
+    100104: Human_Hunter:Sword2:polymsh
+    100106: Human_Hunter:Sword2:Sword2
+    400000: //RootNode
+    400002: Human_Hunter:COG
+    400004: Human_Hunter:GlobalSRT
+    400006: Human_Hunter:Head
+    400008: Human_Hunter:HeadRoot
+    400010: Human_Hunter:Human_Hunter
+    400012: Human_Hunter:Human_Hunter_Human_Hunter_H_H_body
+    400014: Human_Hunter:Human_Hunter_Human_Hunter_H_H_face
+    400016: Human_Hunter:LArmEff
+    400018: Human_Hunter:LArmRoot
+    400020: Human_Hunter:LBicept
+    400022: Human_Hunter:LFoot
+    400024: Human_Hunter:LFootEff
+    400026: Human_Hunter:LForearm
+    400028: Human_Hunter:LHand
+    400030: Human_Hunter:LHandEff
+    400032: Human_Hunter:LHandRoot
+    400034: Human_Hunter:LLegRoot
+    400036: Human_Hunter:LRootFoot
+    400038: Human_Hunter:LRootShoulder
+    400040: Human_Hunter:LShin
+    400042: Human_Hunter:LShoulder
+    400044: Human_Hunter:LShoulderEff
+    400046: Human_Hunter:LThigh
+    400048: Human_Hunter:LToe
+    400050: Human_Hunter:LToeEff
+    400052: Human_Hunter:Neck
+    400054: Human_Hunter:NeckEff
+    400056: Human_Hunter:RArmEff
+    400058: Human_Hunter:RArmRoot
+    400060: Human_Hunter:RBicept
+    400062: Human_Hunter:RFoot
+    400064: Human_Hunter:RFootEff
+    400066: Human_Hunter:RForearm
+    400068: Human_Hunter:RHand
+    400070: Human_Hunter:RHandEff
+    400072: Human_Hunter:RHandRoot
+    400074: Human_Hunter:RLegRoot
+    400076: Human_Hunter:RRootFoot
+    400078: Human_Hunter:RRootShoulder
+    400080: Human_Hunter:RShin
+    400082: Human_Hunter:RShoulder
+    400084: Human_Hunter:RShoulderEff
+    400086: Human_Hunter:RThigh
+    400088: Human_Hunter:RToe
+    400090: Human_Hunter:RToeEff
+    400092: Human_Hunter:Skeleton
+    400094: Human_Hunter:Spine1
+    400096: Human_Hunter:Spine2
+    400098: Human_Hunter:Spine3
+    400100: Human_Hunter:SpineEff
+    400102: Human_Hunter:SpineRoot
+    400104: Human_Hunter:Sword2:polymsh
+    400106: Human_Hunter:Sword2:Sword2
+    4300000: Human_Hunter:Human_Hunter_Human_Hunter_H_H_body
+    4300002: Human_Hunter:Human_Hunter_Human_Hunter_H_H_face
+    4300004: Human_Hunter:Sword2:polymsh
+    9500000: //RootNode
+    13700000: Human_Hunter:Human_Hunter_Human_Hunter_H_H_body
+    13700002: Human_Hunter:Human_Hunter_Human_Hunter_H_H_face
+    13700004: Human_Hunter:Sword2:polymsh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Human_Hunter:SpineRoot
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RShin
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:Spine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:Spine3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RBicept
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:RHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LBicept
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LShin
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Human_Hunter:LToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Character(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:COG
+      position: {x: 2.904063e-18, y: 0.113884285, z: -0.0036560213}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Human_Hunter
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Human_Hunter_Human_Hunter_H_H_body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 5.6377535, y: 5.6377535, z: 5.6377535}
+      transformModified: 1
+    - name: Human_Hunter:Human_Hunter_Human_Hunter_H_H_face
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 5.6377535, y: 5.6377535, z: 5.6377535}
+      transformModified: 1
+    - name: Human_Hunter:Skeleton
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:GlobalSRT
+      position: {x: 8.881784e-18, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:SpineRoot
+      position: {x: 1.79384e-18, y: 0.113884285, z: -0.0036560213}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LLegRoot
+      position: {x: 0.00027513178, y: -0.0028314483, z: 0.009957333}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LThigh
+      position: {x: -0, y: 0, z: 3.5951472e-19}
+      rotation: {x: -0.03672129, y: 0.038420316, z: 0.72359973, w: 0.6881707}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LShin
+      position: {x: -0.054556984, y: -2.7755575e-19, z: -2.5740314e-18}
+      rotation: {x: 7.714335e-34, y: -2.7755576e-17, z: -0.05244172, w: 0.99862397}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LFootEff
+      position: {x: -0.04547377, y: 1.6653345e-18, z: 4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LRootFoot
+      position: {x: 0.0010016146, y: 0.00005785449, z: -0.00054424757}
+      rotation: {x: 0.03562822, y: -0.033738207, z: -0.686757, w: 0.725229}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LFoot
+      position: {x: 5.551115e-19, y: -3.2797114e-20, z: -1.2434444e-18}
+      rotation: {x: -5.975797e-15, y: 1.7542391e-15, z: 0.9609926, w: 0.27657413}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LToe
+      position: {x: -0.016566113, y: 1.110223e-18, z: -1.405126e-18}
+      rotation: {x: 1.6028845e-15, y: -8.104628e-15, z: 0.19237976, w: 0.98132056}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LToeEff
+      position: {x: -0.011172589, y: 2.220446e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RLegRoot
+      position: {x: 0.00027513178, y: -0.0028314483, z: -0.009957333}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RThigh
+      position: {x: -0, y: 0, z: 3.5951472e-19}
+      rotation: {x: 0.03672129, y: -0.038420316, z: 0.72359973, w: 0.6881707}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RShin
+      position: {x: -0.054556984, y: 6.9388935e-19, z: -3.9438532e-18}
+      rotation: {x: 5.551115e-17, y: 2.7755576e-17, z: -0.05244172, w: 0.99862397}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RFootEff
+      position: {x: -0.04547377, y: 5.551115e-19, z: -4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RRootFoot
+      position: {x: 0.0010017733, y: 0.000055085882, z: 0.00054424285}
+      rotation: {x: -0.03562822, y: 0.03373821, z: -0.686757, w: 0.725229}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RFoot
+      position: {x: -0, y: -9.852687e-19, z: 2.8385768e-18}
+      rotation: {x: -3.9595822e-13, y: 1.1400386e-13, z: 0.9609926, w: 0.27657413}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RToe
+      position: {x: -0.016566113, y: 2.220446e-18, z: 2.5625119e-18}
+      rotation: {x: -4.64212e-15, y: 2.3703262e-14, z: 0.19237976, w: 0.98132056}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RToeEff
+      position: {x: -0.011172589, y: -3.6637358e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Spine1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 1.1102232e-16, y: 5.551116e-17, z: -0.6806923, w: 0.7325695}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Spine2
+      position: {x: -0.018763397, y: 0, z: 2.4266716e-33}
+      rotation: {x: -8.326673e-17, y: 5.551115e-17, z: -0.036682732, w: 0.99932694}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Spine3
+      position: {x: -0.01953847, y: 1.110223e-18, z: 6.6560134e-33}
+      rotation: {x: 2.7755576e-17, y: 5.551115e-17, z: -0.040216222, w: 0.999191}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:SpineEff
+      position: {x: -0.017117132, y: -2.220446e-18, z: 8.556517e-19}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:HeadRoot
+      position: {x: -0.00025293438, y: -0.000038541188, z: -1.136085e-17}
+      rotation: {x: -2.7755578e-16, y: -3.694149e-16, z: 0.73497194, w: 0.6780976}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Neck
+      position: {x: -0, y: 4.622347e-19, z: -6.162976e-33}
+      rotation: {x: -4.1820272e-16, y: -3.576974e-16, z: -0.68759084, w: 0.72609836}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Head
+      position: {x: -0.009964615, y: 0, z: -2.9890432e-32}
+      rotation: {x: -2.775558e-17, y: 5.551116e-17, z: -0.019659596, w: 0.99980676}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:NeckEff
+      position: {x: -0.011941175, y: 0, z: 5.9189855e-19}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LRootShoulder
+      position: {x: 0.0000060143834, y: 0.00003218316, z: -0.000116509604}
+      rotation: {x: 0.70653474, y: 0.028437164, z: -0.70653474, w: 0.028437164}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LShoulder
+      position: {x: -3.950031e-21, y: 0, z: -1.6095684e-18}
+      rotation: {x: -1.1546813e-18, y: 1.9777338e-16, z: -0.004902817, w: 0.999988}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LShoulderEff
+      position: {x: -0.01916863, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LArmRoot
+      position: {x: 0.000033249104, y: 0.00000032604024, z: 0}
+      rotation: {x: 1.664648e-16, y: 4.336809e-19, z: 0.004902817, w: 0.999988}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LBicept
+      position: {x: -6.973023e-19, y: 0, z: -2.9628174e-18}
+      rotation: {x: -0.0058068023, y: -0.022768568, z: -0.0006742513, w: 0.9997237}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LForearm
+      position: {x: -0.03, y: 0, z: -7.736867e-18}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LArmEff
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LHandRoot
+      position: {x: -0.0010298863, y: 0.00018011613, z: -0.00012802353}
+      rotation: {x: 0.7076626, y: -0.013104857, z: -0.026878536, w: 0.7059175}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LHand
+      position: {x: -5.342948e-18, y: 3.2786273e-18, z: 0}
+      rotation: {x: 8.673617e-18, y: -2.857957e-16, z: 0.024061747, w: 0.9997105}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:LHandEff
+      position: {x: -0.010569105, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RRootShoulder
+      position: {x: 0.0000060143834, y: 0.00003218316, z: 0.000116509604}
+      rotation: {x: 0.70653474, y: 0.028437164, z: 0.70653474, w: -0.028437164}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RShoulder
+      position: {x: 2.7305915e-21, y: 0, z: 1.6095684e-18}
+      rotation: {x: -1.2037208e-34, y: -8.239937e-17, z: -0.004902817, w: 0.999988}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RShoulderEff
+      position: {x: -0.01916863, y: 5.551115e-19, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RArmRoot
+      position: {x: 0.000033249104, y: 0.00000032604024, z: 0}
+      rotation: {x: 1.0983952e-34, y: -1.8390946e-18, z: 0.004902817, w: 0.999988}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RBicept
+      position: {x: 1.4334474e-18, y: 0, z: 1.6930385e-18}
+      rotation: {x: 0.012045381, y: 0.022674723, z: -0.0013874961, w: 0.99966943}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RForearm
+      position: {x: -0.03, y: -5.551115e-19, z: -2.640249e-17}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RArmEff
+      position: {x: -0.03, y: -5.551115e-19, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RHandRoot
+      position: {x: -0.0011595816, y: 0.0002418983, z: 0.00012555657}
+      rotation: {x: -0.7071187, y: 0.0130843315, z: -0.026909728, w: 0.7064615}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RHand
+      position: {x: 9.436896e-18, y: -1.5265567e-18, z: -1.110223e-18}
+      rotation: {x: 4.1199687e-18, y: -2.5202282e-16, z: 0.013516436, w: 0.9999087}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:RHandEff
+      position: {x: -0.010569105, y: -3.5527136e-17, z: 1.110223e-18}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Sword2:Sword2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Hunter:Sword2:polymsh
+      position: {x: -0.07051042, y: 0.1077178, z: 0.0075045894}
+      rotation: {x: 0, y: -0, z: -0.28490978, w: 0.9585543}
+      scale: {x: 1.635327, y: 1.635327, z: 1.635327}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
