@@ -19,13 +19,15 @@ public class PlayerController : MonoBehaviour {
     private float currentLife = 100;
     private float speed;
     private int combo=0;
+	private int damageAmount;
     public Vector3 position;
-#if UNITY_IOS || UNITY_ANDROID
-    private Vector3 accel;
-    private Touch finger;
-#endif
+
     // Use this for initialization
     void Start () {
+		DataManager.instance.fileName = PlayerPrefs.GetString ("Dificultad");
+		DataManager.instance.LoadData ();
+		damageAmount = DataManager.instance.Fuerza;
+
 		playerAnimator = GetComponent<Animator>();
 		capsule = GetComponent<CapsuleCollider>();
         startColliderHeight = capsule.height;
@@ -46,7 +48,7 @@ public class PlayerController : MonoBehaviour {
 
         FeithAmount.text = Feit.ToString();
 
-#if UNITY_STANDALONE
+
         playerAnimator.SetFloat("speed", Input.GetAxis("Horizontal"));
         
 		if (playerAnimator.GetFloat("speed") != 0)
@@ -80,66 +82,14 @@ public class PlayerController : MonoBehaviour {
 
         if (damage)
         {
-            currentLife -= 5;
+			currentLife -= damageAmount ;
             playerAnimator.SetTrigger("Damage");
         }
-        
-        
-       
-
-
         if(currentLife <= 0)
         {
             StartCoroutine(AnimDie());
 
         }
-#endif
-
-#if UNITY_IOS || UNITY_ANDROID
-        accel = Input.acceleration;
-        playerAnimator.SetFloat("direction", accel.x);
-
-        if (Input.touchCount > 0)
-        {
-            for (int i=0; i<Input.touchCount; i++)
-            {
-                finger = Input.GetTouch(i);
-                if (finger.position.x >= Screen.width * 0.5f)
-                {
-                    playerAnimator.SetFloat("speed", 1);
-                }
-                else
-                {
-                    playerAnimator.SetFloat("speed", 0);
-                    if (finger.phase == TouchPhase.Began && playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Locomotion"))
-                    playerAnimator.SetTrigger("jump");
-                }
-            }
-            
-        }
-        else
-        {
-            playerAnimator.SetFloat("speed", 0);
-        }
-            
-
-        if (playerAnimator.GetFloat("speed") > 0)
-        {
-            for(int i = 0; i< particulas.Length; i++)
-            {
-                particulas[i].SetActive(true);
-            }
-        }
-        else
-        {
-            for (int i = 0; i < particulas.Length; i++)
-            {
-                particulas[i].SetActive(false);
-            }
-        }
-
-#endif
-
         damage = false;
 
     }

@@ -20,7 +20,6 @@ public class UIManager : MonoBehaviour {
         if (WinPanel != null)
         {
             WinPanel.SetActive(true);
-            Time.timeScale = 0.0f;
             StartCoroutine(winNext());
 
         }

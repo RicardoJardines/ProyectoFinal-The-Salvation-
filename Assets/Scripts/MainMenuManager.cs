@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
 public class MainMenuManager : MonoBehaviour {
 
     public GameObject StartPanel;
@@ -11,6 +12,7 @@ public class MainMenuManager : MonoBehaviour {
     public GameObject LevelList;
     public GameObject Shop;
     public GameObject ErrorShopPanel;
+	public GameObject Dificulty;
     public Text FeithAmount;
 
 
@@ -21,6 +23,7 @@ public class MainMenuManager : MonoBehaviour {
         Options.SetActive(false);
         LevelList.SetActive(false);
         Shop.SetActive(false);
+		Dificulty.SetActive (false);
     }
 
     void Update()
@@ -45,7 +48,7 @@ public class MainMenuManager : MonoBehaviour {
 
     public void Play()
     {
-        LevelList.SetActive(true);
+		Dificulty.SetActive (true);
         Menu.SetActive(false);
     }
 
@@ -107,5 +110,29 @@ public class MainMenuManager : MonoBehaviour {
     {
         ErrorShopPanel.SetActive(false);
     }
+
+
+	public void Facil()
+	{
+		PlayerPrefs.SetString ("Dificultad", "facil");
+		DataManager.instance.fileName = "facil";
+		DataManager.instance.Vida = 50;
+		DataManager.instance.Fuerza = 5;
+		DataManager.instance.SaveData ();
+		Dificulty.SetActive (false);
+		LevelList.SetActive(true);
+	}
+
+
+	public void Dificil()
+	{
+		PlayerPrefs.SetString ("Dificultad", "dificil");
+		DataManager.instance.fileName = "dificil";
+		DataManager.instance.Vida = 100;
+		DataManager.instance.Fuerza = 10;
+		DataManager.instance.SaveData ();
+		Dificulty.SetActive (false);
+		LevelList.SetActive(true);
+	}
 
 }

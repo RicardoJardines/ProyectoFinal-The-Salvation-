@@ -7,6 +7,7 @@ public class WinTrigger : MonoBehaviour {
     {
         if (Other.CompareTag("Player"))
         {
+			Other.gameObject.GetComponent<PlayerController> ().enabled = false;
             UIManager.Instance.Win();
         }
     }

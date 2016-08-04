@@ -10,7 +10,7 @@ public class DataManager : MonoBehaviour {
 
     string[] tmpString;
     char[] delimeterCharacteres = { '|' , ','};
-    public int items, lives;
+    public int Fuerza, Vida;
 
 	
 	void Awake () {
@@ -27,22 +27,22 @@ public class DataManager : MonoBehaviour {
             while ((stringLine = sr.ReadLine()) != null)
                 {
                 tmpString = stringLine.Split(delimeterCharacteres);
-                items = int.Parse(tmpString[0]);
-                lives = int.Parse(tmpString[1]);
+				Fuerza = int.Parse(tmpString[0]);
+				Vida = int.Parse(tmpString[1]);
             }
             sr.Close();
         }
         else
         {
-            items = 0;
-            lives = 3;
+			Fuerza = 5;
+			Vida = 3;
         }
     }
 
     public void SaveData()
     {
         StreamWriter sw = new StreamWriter(Application.dataPath + "/" +  fileName);
-        string tmpData = items + "|" + lives;
+		string tmpData = Fuerza + "|" + Vida;
         sw.WriteLine(tmpData);
         sw.Close();
     }

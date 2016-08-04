@@ -25,6 +25,11 @@ public class EnemyController : MonoBehaviour {
     private int attack;
     // Use this for initialization
     void Start() {
+
+		DataManager.instance.fileName = PlayerPrefs.GetString ("Dificultad");
+		DataManager.instance.LoadData ();
+		life = DataManager.instance.Vida;
+
         enemyAnimator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         PlayerAnimator = player.GetComponent<Animator>();
