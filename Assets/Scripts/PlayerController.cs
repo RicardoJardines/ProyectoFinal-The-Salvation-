@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
     public Vector3 FirstRotation;
     public Image LifeSprite;
     public Text FeithAmount;
+	public GameObject PausePanel;
     public bool damage;
     public int Feit;
     private Animator playerAnimator;
@@ -70,6 +71,12 @@ public class PlayerController : MonoBehaviour {
         {
             gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * force, ForceMode.Acceleration);
         }
+
+		if (Input.GetKeyDown(KeyCode.Escape)  )
+		{
+			PausePanel.SetActive (true);
+			Time.timeScale = 0f;
+		}
 
         if (Input.GetKeyDown(KeyCode.H))
         {

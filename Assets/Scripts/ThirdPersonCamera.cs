@@ -23,7 +23,5 @@ public class ThirdPersonCamera : MonoBehaviour {
         position += Quaternion.Euler(0, yAngle, 0) * new Vector3(0, height, -distance);
         transform.position = position;
         transform.LookAt(targetTransform);
-
-        
 	}
 }

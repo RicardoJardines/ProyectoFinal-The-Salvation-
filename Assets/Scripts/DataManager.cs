@@ -20,7 +20,7 @@ public class DataManager : MonoBehaviour {
 	
 	public void LoadData()
     {
-        if (File.Exists(fileName))
+		if (File.Exists(Application.dataPath + "/" +fileName))
         {
             StreamReader sr = new StreamReader(Application.dataPath + "/" +fileName); //application es para moviles
             string stringLine;
@@ -35,7 +35,7 @@ public class DataManager : MonoBehaviour {
         else
         {
 			Fuerza = 5;
-			Vida = 3;
+			Vida = 100;
         }
     }
 

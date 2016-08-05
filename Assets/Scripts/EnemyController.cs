@@ -65,13 +65,13 @@ public class EnemyController : MonoBehaviour {
                 {
                     enemyAnimator.SetTrigger("Damage1");
                     life -= attack;
-                    LifePanel.fillAmount -= 5 / StartLife;
+					LifePanel.fillAmount = life / StartLife;
                 }
                 else if (DamageSkill && Vector3.Distance(player.transform.position, transform.position) < 1f)
                 {
                     enemyAnimator.SetTrigger("Damage2");
                     life -= attack*2;
-                    LifePanel.fillAmount -= 10 / StartLife;
+					LifePanel.fillAmount -= life / StartLife;
                 }
                 if (life <= 0)
                 {
@@ -108,13 +108,13 @@ public class EnemyController : MonoBehaviour {
                 {
                     enemyAnimator.SetTrigger("Damage1");
                     life -= attack;
-                    LifePanel.fillAmount -= 5 / StartLife;
+					LifePanel.fillAmount = life / StartLife;
                 }
                 else if (DamageSkill && Vector3.Distance(player.transform.position, transform.position) < 1f)
                 {
                     enemyAnimator.SetTrigger("Damage2");
                     life -= attack*2;
-                    LifePanel.fillAmount -= 10 / StartLife;
+					LifePanel.fillAmount = life / StartLife;
                 }
                 if (life <= 0)
                 {
@@ -151,13 +151,13 @@ public class EnemyController : MonoBehaviour {
                 {
                     enemyAnimator.SetTrigger("Damage1");
                     life -= attack;
-                    LifePanel.fillAmount -= 5 / StartLife;
+					LifePanel.fillAmount = life / StartLife;
                 }
                 else if (DamageSkill && Vector3.Distance(player.transform.position, transform.position) < 1f)
                 {
                     enemyAnimator.SetTrigger("Damage2");
                     life -= attack*2;
-                    LifePanel.fillAmount -= 10 / StartLife;
+					LifePanel.fillAmount = life / StartLife;
                 }
                 if (life <= 0)
                 {
